@@ -1,6 +1,7 @@
  const mongoose = require('mongoose')
 
  const Schema = mongoose.Schema
+ //workout model
  const workoutSchema = new Schema({
      title: {
          type: String,
