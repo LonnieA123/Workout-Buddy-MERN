@@ -1,3 +1,5 @@
+
+//how the different workouts will be presented
 const WorkoutDetails = ({ workout }) => {
     return (
         <div className="workout-details">
