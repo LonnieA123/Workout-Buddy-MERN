@@ -1,8 +1,11 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
+
+//pages and components
 import Navbar from './components/Navbar'
 import Home from './pages/Home'
 function App() {
+
   return (
     <div className="App">
       <BrowserRouter>
@@ -23,6 +26,7 @@ function App() {
 
     </div>
   );
+
 }
 
 export default App;
